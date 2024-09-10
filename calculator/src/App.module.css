@@ -1,0 +1,22 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    border: 2px solid black;
+    width: 350px;
+    min-height: 500px;
+}
+
+.calculator input{
+    margin: 15px;
+    height: 60px;
+    width: 90%;
+    font-size: 25px;
+}
+
+
+
