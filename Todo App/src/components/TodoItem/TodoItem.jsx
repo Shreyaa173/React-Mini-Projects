@@ -1,26 +1,12 @@
 import "./TodoItem.css";
-function TodoItem() {
-  let TodoName = "Buy Milk";
-  let TodoDate = "4/10/2023";
+function TodoItem({todoName,todoDate}) {
   return (
     <>
-      <div classNameName="main">
+      <div className="main">
         <div className="row main-row">
           <div className="content">
-            <div className="col-2">{TodoName}</div>
-            <div className="col-2">{TodoDate}</div>
-            <div className="col-1">
-              <button type="button" className="btn btn-danger button">
-                Delete
-              </button>
-              <div />
-            </div>
-          </div>
-        </div>
-        <div className="row main-row">
-          <div className="content">
-            <div className="col-2">{TodoName}</div>
-            <div className="col-2">{TodoDate}</div>
+            <div className="col-2">{todoName}</div>
+            <div className="col-2">{todoDate}</div>
             <div className="col-1">
               <button type="button" className="btn btn-danger button">
                 Delete
